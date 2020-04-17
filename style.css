@@ -1,0 +1,39 @@
+#selectedimage img {width: 35%; float: left; padding: 20px; }
+#selectedtext p {color: white; padding: 20px;}
+/*#selectedimage svg {background-color: white; opacity: 50%;}
+#selecteddata {background-color: black; opacity: 50%;}*/
+.x-axis{color: white;}
+.y-axis{color: white;}
+.tooltip {
+    position: absolute;
+    width: 135px;
+    
+    padding: 8px;
+    font: 12px sans-serif;
+    color: white;
+    text-align: center;
+    background: rgba(169, 169, 169, 0.281);
+    background-blend-mode: 70%;
+    border: 0;
+    border-radius: 10px;
+  }
+
+  .active {
+    font-weight: bold;
+    fill: #000;
+    fill: white;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+  
+  .inactive {
+    font-weight: lighter;
+    fill: gray;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+  
+  .inactive:hover {
+    fill: #e75480;
+    cursor: pointer;
+  }
