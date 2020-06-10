@@ -45,38 +45,30 @@
           <div class='column-md-12' >
             <div style='float: left; color: white; width: 50%'>
               <h3 >Is the Grim Reaper Sick in YOUR State?</h3><br>
-              <p>The aim of this study was to better understand how different socioeconomic factors relate to the incidence off death by 
-                Influenza and Pneumonia in the US.  
-              </p>
+              <p>The aim of this study was to better understand how different socioeconomic factors relate to the incidence of death by 
+                Influenza and Pneumonia in the US.  To make these observations, a 10-year Death Rate (number of pneumonia and influenza deaths over 10 years divided by the population) was calculated for each US State.
+              </p><br>
+              <i>- select from the options below to explore the findings of this study -</i>
             </div>
             <img src='gr.png' style='float: right; width: 40%;'>
           </div><br>
         </div>
       </div>
 
-      <!--<div class="form-group align-items-center" style='color: white;'>
-        <label for="exampleFormControlSelect1">Select a variable</label>
-        <select class="form-control col-form-label-sm" id="exampleFormControlSelect1">
-          <option></option>
-          <option>Population</option>
-          <option>Age</option>
-          <option>Poverty</option>
-          <option>Household Income</option>
-        </select>
+
+      <div class='container-fluid' id='selecteddata'>
+        <div class='row'>
+        <div id='selectedimage' class='col-8' ></div>
+        <div id='selectedtext' class='col-4 column-sm-8 align-self-center' >
+          <h5 id='textheader'></h5>
+          <p id='textcontent'></p>
+        </div>
       </div>
-      <div id='selecteddata'>
-        <div id='selectedimage' ><img src='grimg/population.png'></div>
-        <div id='selectedtext'><p>Information about the graph over there...</p></div>
-      </div>-->
-
-      <div id='selecteddata'>
-        <div id='selectedimage' ></div>
-        <div id='selectedtext'></div>
-      </div>
+    </div>
 
 
-        
-        
+    <!--style="float: left"   style="color: white; float: right; width: 40; text-align: left; margin-top: 40px; margin-right: 120px;"
+    -->
       
       
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -85,5 +77,6 @@
       <script src="https://d3js.org/d3.v5.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
       <script type="text/javascript" src="gr.js"></script>
+      <script type="text/javascript" src="navbar.js"></script>
     </body>
 </html>
