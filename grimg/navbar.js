@@ -1,3 +1,4 @@
+
 const navbarinfo = <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style='margin: 15px'>
 <a class="navbar-brand" href="index.html">Joseph Bero</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,5 +28,6 @@ const navbarinfo = <nav class="navbar navbar-expand-lg navbar-dark bg-dark" styl
   </ul>
 </div>
 </nav>;
+
 
 console.log(navbarinfo);
