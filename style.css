@@ -1,5 +1,5 @@
-#selectedimage img {width: 35%; float: left; padding: 20px; }
-#selectedtext p {color: white; padding: 20px;}
+#selectedimage img {width: 30%; float: left; padding: 20px; padding-left: 40px;}
+#selectedtext {color: white; padding: 20px;}
 /*#selectedimage svg {background-color: white; opacity: 50%;}
 #selecteddata {background-color: black; opacity: 50%;}*/
 .x-axis{color: white;}
@@ -36,4 +36,8 @@
   .inactive:hover {
     fill: #e75480;
     cursor: pointer;
+  }
+  @media (min-width: 576px) {
+    #selectedtext {width: 80%;}
+    
   }
